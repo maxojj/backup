@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>海布里钟声</title>
+  
+  <subtitle>欢迎</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-01-10T03:09:04.199Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>路小飞</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新年新零售，依然掏钱买享受</title>
+    <link href="http://yoursite.com/2018/01/10/%E6%96%B0%E5%B9%B4%E6%96%B0%E9%9B%B6%E5%94%AE%EF%BC%8C%E4%BE%9D%E7%84%B6%E6%8E%8F%E9%92%B1%E4%B9%B0%E4%BA%AB%E5%8F%97/"/>
+    <id>http://yoursite.com/2018/01/10/新年新零售，依然掏钱买享受/</id>
+    <published>2018-01-10T02:41:10.000Z</published>
+    <updated>2018-01-10T03:09:04.199Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;金闪闪の新零售（现状&quot;&gt;&lt;a href=&quot;#金闪闪の新零售（现状&quot; class=&quot;headerlink&quot; title=&quot;金闪闪の新零售（现状&quot;&gt;&lt;/a&gt;金闪闪の新零售（现状&lt;/h1&gt;&lt;h4 id=&quot;1-怎样算新零售&quot;&gt;&lt;a href=&quot;#1-怎样算新零售&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="-行业观察 -产品相关" scheme="http://yoursite.com/tags/%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F-%E4%BA%A7%E5%93%81%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写在前面</title>
+    <link href="http://yoursite.com/2018/01/09/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
+    <id>http://yoursite.com/2018/01/09/写在前面/</id>
+    <published>2018-01-09T08:06:02.000Z</published>
+    <updated>2018-01-09T09:14:31.480Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/2018/01/09/写在前面/pexels-photo-190294.jpeg&quot; alt=&quot;一人独钓一江秋&quot;&gt;&lt;/p&gt;
+&lt;h5 id=&quot;写在喘气前&quot;&gt;&lt;a href=&quot;#写在喘气前&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="杂谈" scheme="http://yoursite.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/01/09/hello-world/"/>
+    <id>http://yoursite.com/2018/01/09/hello-world/</id>
+    <published>2018-01-09T05:08:10.741Z</published>
+    <updated>2018-01-09T05:08:10.741Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
