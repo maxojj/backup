@@ -7,7 +7,7 @@ title: 海布里钟声
 subtitle: 欢迎
 description: Ah, but I was so much older then, I'm younger than that now.
 author: 路小飞
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hipaper
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

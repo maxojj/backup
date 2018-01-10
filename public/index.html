@@ -1,136 +1,339 @@
 <!DOCTYPE html>
-<html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <title>第 1 页 | 海布里钟声</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  
-  
-  
-  <meta name="description" content="Ah, but I was so much older then, I&apos;m younger than that now.">
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Ah, but I was so much older then, I&apos;m younger than that now.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="海布里钟声">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="海布里钟声">
 <meta property="og:description" content="Ah, but I was so much older then, I&apos;m younger than that now.">
-<meta property="og:locale" content="zh-CN">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="海布里钟声">
 <meta name="twitter:description" content="Ah, but I was so much older then, I&apos;m younger than that now.">
-  
-    <link rel="alternate" href="/atom.xml" title="海布里钟声" type="application/atom+xml">
-  
-  <link rel="icon" href="/css/images/favicon.ico">
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-  <style type="text/css">
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
-    
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
 
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
-  <link rel="stylesheet" href="/css/style.css">
 
-  <script src="/js/jquery-3.1.1.min.js"></script>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.css" >
-  <link rel="stylesheet" href="/css/fashion.css" >
-  <link rel="stylesheet" href="/css/glyphs.css" >
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>海布里钟声</title>
+  
+
+
+
+
+
+
+
 
 </head>
 
-
-
-  <body>
-
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
+  
+    
+  
 
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
 
-<header id="allheader" class="site-header" role="banner" 
-   >
-  <div class="clearfix container">
-      <div class="site-branding">
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
-          <h1 class="site-title">
-            
-              <a href="/" title="海布里钟声" rel="home"> 海布里钟声 </a>
-            
-          </h1>
-          
-          
-            <div class="site-description">Ah, but I was so much older then, I&#39;m younger than that now.</div>
-          
-            
-          <nav id="main-navigation" class="main-navigation" role="navigation">
-            <a class="nav-open">Menu</a>
-            <a class="nav-close">Close</a>
-
-            <div class="clearfix sf-menu">
-              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">首页</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">归档</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/categories">分类</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/tags">标签</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">关于</a> </li>
-                    
-              </ul>
-            </div>
-          </nav>
-
-      </div>
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">海布里钟声</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">欢迎</p>
+      
   </div>
-</header>
 
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
 
-  <div id="container">
-    <div id="wrap">
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
             
-      <div id="content" class="outer">
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
         
-          <section id="main">
-  
-    <article id="post-新年新零售，依然掏钱买享受"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2018/01/10/新年新零售，依然掏钱买享受/">新年新零售，依然掏钱买享受</a>
-    </h1>
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+    </ul>
   
 
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/10/新年新零售，依然掏钱买享受/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="路小飞">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="海布里钟声">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/10/新年新零售，依然掏钱买享受/" itemprop="url">新年新零售，依然掏钱买享受</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-10T10:41:10+08:00">
+                2018-01-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2018/01/10/新年新零售，依然掏钱买享受/" class="article-date">
-	  <time datetime="2018-01-10T02:41:10.000Z" itemprop="datePublished">一月 10, 2018</time>
-	</a>
 
-       
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="金闪闪の新零售（现状"><a href="#金闪闪の新零售（现状" class="headerlink" title="金闪闪の新零售（现状"></a>金闪闪の新零售（现状</h1><h4 id="1-怎样算新零售"><a href="#1-怎样算新零售" class="headerlink" title="1.怎样算新零售"></a>1.怎样算新零售</h4><p>线上+线下</p>
+
+      
+        
+          
+            <h1 id="金闪闪の新零售（现状"><a href="#金闪闪の新零售（现状" class="headerlink" title="金闪闪の新零售（现状"></a>金闪闪の新零售（现状</h1><h4 id="1-怎样算新零售"><a href="#1-怎样算新零售" class="headerlink" title="1.怎样算新零售"></a>1.怎样算新零售</h4><p>线上+线下</p>
 <h4 id="2-新零售和“旧”便利"><a href="#2-新零售和“旧”便利" class="headerlink" title="2.新零售和“旧”便利"></a>2.新零售和“旧”便利</h4><p>人、货、场<br>新零售与旧零售的区别<br>由线上蔓延到线下的新零售，无时无刻不强调数据的重要性，是因为数据曾经是他们唯一的资源。线上商业体没法对店铺进行选址，但却可以清楚的看到自己的每一位用户从哪里来，了解到他们的性别、地域、喜好等等。掌握了用户，就掌握了商业的无尽可能。对于“人”的充分了解，几乎撑起了互联网商业模式的半边天。而对于线下商业体而言，数据更多代表着流水、库存量、利润等财会方面的数字。<br>新零售与旧零售基因中的最大区别，就在于对“人”的考量上。在旧零售中，人只代表着客单价和客流量，可在新零售中，“人”代表着用户，代表着巨大的想象空间。<br>很多人把新零售解读为对“人、货、场”的重构，如果“货”和“场”意味着更精准的选品选址、更合理的库存设置，那这一切很显然是基于对“人”的充分了解之上的。通过来自人的数据去校验货的数据和场的数据，本质上新零售的“人货场”是一种数据之间的互相印证。<br>线下零售的优势<br>但通过线上途径去了解用户，只能解决一半的问题。用户在线上的行为几乎毫无成本，搜索、浏览和点击或许只是消磨时间的方式，我们可能会在电商平台上美滋滋的看一天名车名表，到了线下却不曾踏入过4S店一步。更别提泛滥的流量劫持和水军了。<br>相比线上数据的真实程度和噪声比例，线下数据往往要更真实和更有价值。两者结合起来，才能从真正意义上帮每一个商业体完成“人货场”的数据运转。</p>
 <h4 id="3-赚了吆喝赚美金（融资情况）"><a href="#3-赚了吆喝赚美金（融资情况）" class="headerlink" title="3.赚了吆喝赚美金（融资情况）"></a>3.赚了吆喝赚美金（融资情况）</h4><h1 id="消费升级搞事情（原因"><a href="#消费升级搞事情（原因" class="headerlink" title="消费升级搞事情（原因"></a>消费升级搞事情（原因</h1><h4 id="1-解放后的三次消费升级"><a href="#1-解放后的三次消费升级" class="headerlink" title="1.解放后的三次消费升级"></a>1.解放后的三次消费升级</h4><blockquote>
 <pre><code>中国从解放后到现在，一共经历过三次消费浪潮
@@ -168,50 +371,125 @@
 </blockquote>
 <h4 id="2-线上下大佬共同的难题"><a href="#2-线上下大佬共同的难题" class="headerlink" title="2.线上下大佬共同的难题"></a>2.线上下大佬共同的难题</h4><p>成本增加<br>服务标准提高<br>数据泛滥、提炼精准度</p>
 <h4 id="3-走向共和，谁都无法取代"><a href="#3-走向共和，谁都无法取代" class="headerlink" title="3.走向共和，谁都无法取代"></a>3.走向共和，谁都无法取代</h4><h4 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h4><h1 id="刷脸扫码黑科技，还不是要买单（前景、未来、技术问题"><a href="#刷脸扫码黑科技，还不是要买单（前景、未来、技术问题" class="headerlink" title="刷脸扫码黑科技，还不是要买单（前景、未来、技术问题"></a>刷脸扫码黑科技，还不是要买单（前景、未来、技术问题</h1>
+          
+        
       
     </div>
-    <footer class="entry-meta entry-footer">
-      
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/行业观察-产品相关/">行业观察 产品相关</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
-</article>
+  
+  
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-写在前面"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/09/写在前面/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="路小飞">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="海布里钟声">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2018/01/09/写在前面/">写在前面</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/09/写在前面/" itemprop="url">写在前面</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-09T16:06:02+08:00">
+                2018-01-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2018/01/09/写在前面/" class="article-date">
-	  <time datetime="2018-01-09T08:06:02.000Z" itemprop="datePublished">一月 9, 2018</time>
-	</a>
 
-       
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/2018/01/09/写在前面/pexels-photo-190294.jpeg" alt="一人独钓一江秋"></p>
+
+      
+        
+          
+            <p><img src="/2018/01/09/写在前面/pexels-photo-190294.jpeg" alt="一人独钓一江秋"></p>
 <h5 id="写在喘气前"><a href="#写在喘气前" class="headerlink" title="写在喘气前"></a>写在喘气前</h5><p>经过数天数夜的折腾和尝试，在这个特殊的日子，终于搭建起属于自己的小破船，浪荡在互联天地间。<strong>一蓑一笠一扁舟</strong>，小学很欣赏这句诗，当时并不了解，现在品味倒是有几分悲壮的滋味在其中，对<strong>一人独钓一江秋</strong>的情境倒也是非常向往。</p>
 <h5 id="这个特殊的日子"><a href="#这个特殊的日子" class="headerlink" title="这个特殊的日子"></a>这个特殊的日子</h5><blockquote>
 <p><strong>哈尔·葛宾·科拉纳</strong> （1922年1月9日－2011年11月9日），首先证明<a href="https://zh.wikipedia.org/wiki/%E6%A0%B8%E8%8B%B7%E9%85%B8" target="_blank" rel="noopener">核苷酸</a>在<a href="https://zh.wikipedia.org/wiki/%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%90%88%E6%88%90" target="_blank" rel="noopener">蛋白质合成</a>中的作用，96岁生日快乐！</p>
@@ -224,50 +502,125 @@
 <p>一蓑一笠一扁舟，<br>一丈丝纶一寸钩；<br>一曲高歌一樽酒，<br>一人独钓一江秋。</p>
 </blockquote>
 
+          
+        
       
     </div>
-    <footer class="entry-meta entry-footer">
-      
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/杂谈/">杂谈</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
-</article>
+  
+  
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-hello-world"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/09/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="路小飞">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="海布里钟声">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2018/01/09/hello-world/">Hello World</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/09/hello-world/" itemprop="url">Hello World</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-09T13:08:10+08:00">
+                2018-01-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2018/01/09/hello-world/" class="article-date">
-	  <time datetime="2018-01-09T05:08:10.741Z" itemprop="datePublished">一月 9, 2018</time>
-	</a>
 
-       
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -277,285 +630,160 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
+          
+        
       
     </div>
-    <footer class="entry-meta entry-footer">
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
+        <div class="post-eof"></div>
       
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
-</article>
+  
+  
+  </article>
 
-<!-- Table of Contents -->
+
+    
+  </section>
 
   
 
 
-</section>
-          <aside id="sidebar">
-  
-    <div style="margin: 20px 0;">
-	<div id="search-form-wrap">
+          </div>
+          
 
-    <form class="search-form">
-        <label style="width: 72%;">
-            <span class="screen-reader-text">Search for:</span>
-            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" 搜索…" value="" name="s" title="Search for:">
-        </label>
-        <input type="submit" class="search-form-submit" value="搜索">
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+
+          
+
         </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">路小飞</p>
+              <p class="site-description motion-element" itemprop="description">Ah, but I was so much older then, I'm younger than that now.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-    </div>
-</div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
-            UNTITLED: '(无标题)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-<script src="/js/insight.js"></script>
+      </section>
 
-</div>
-</div>
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">联系我们</h3>
-    <div class="widget widget_athemes_social_icons">
+      
 
-    	<ul class="clearfix widget-social-icons">   
-    	
-   			<li><a href="https://github.com/maxojj" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
-
-   		
-   		</ul>
-
-
-   		<!--
-   		<ul class="clearfix widget-social-icons">   		
-   		<li class="widget-si-twitter"><a href="http://twitter.com" title="Twitter"><i class="ico-twitter"></i></a></li> 
-		<li class="widget-si-facebook"><a href="http://facebook.com" title="Facebook"><i class="ico-facebook"></i></a></li>
-			<li class="widget-si-gplus"><a href="http://plus.google.com" title="Google+"><i class="ico-gplus"></i></a></li>
-			<li class="widget-si-pinterest"><a href="http://pinterest.com" title="Pinterest"><i class="ico-pinterest"></i></a></li>
-			<li class="widget-si-flickr"><a href="http://flickr.com" title="Flickr"><i class="ico-flickr"></i></a></li>
-			<li class="widget-si-instagram"><a href="http://instagram.com" title="Instagram"><i class="ico-instagram"></i></a></li>
-		</ul> -->
+      
 
     </div>
-  </div>
+  </aside>
 
 
-  
-    
-  <div class="widget_athemes_tabs">
-    <ul id="widget-tab" class="clearfix widget-tab-nav">
-      <li class="active"><a>最新文章</a></li>
-    </ul>
-    <div class="widget">
-      <ul>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2018/01/10/新年新零售，依然掏钱买享受/">新年新零售，依然掏钱买享受</a></h6>
-              <span>一月 10, 2018</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2018/01/09/写在前面/">写在前面</a></h6>
-              <span>一月 9, 2018</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2018/01/09/hello-world/">Hello World</a></h6>
-              <span>一月 9, 2018</span>
-            </div>
-
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-    
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂谈/">杂谈</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/行业观察-产品相关/">行业观察 产品相关</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/杂谈/" style="font-size: 10px;">杂谈</a> <a href="/tags/行业观察-产品相关/" style="font-size: 10px;">行业观察 产品相关</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">一月 2018</a><span class="archive-list-count">3</span></li></ul>
-    </div>
-  </div>
-
-
-  
-</aside>
         
       </div>
+    </main>
 
-    </div>
-    <!-- <nav id="mobile-nav">
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">路小飞</span>
+
   
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-    <a href="/categories" class="mobile-nav-link">Categories</a>
-  
-    <a href="/tags" class="mobile-nav-link">Tags</a>
-  
-    <a href="/about" class="mobile-nav-link">About</a>
-  
-</nav> -->
-    <footer id="footer" class="site-footer">
-  
-
-  <div class="clearfix container">
-      <div class="site-info">
-	      &copy; 2018 海布里钟声 All Rights Reserved.
-        
-      </div>
-      <div class="site-credit">
-        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
-      </div>
-  </div>
-</footer>
-
-
-<!-- min height -->
-
-<script>
-    var wrapdiv = document.getElementById("wrap");
-    var contentdiv = document.getElementById("content");
-
-    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-
-
-    <!-- headerblur min height -->
-    
-    
-</script>
-    
-<div style="display: none;">
-  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
 </div>
 
-<!-- mathjax config similar to math.stackexchange -->
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+  <span class="post-meta-divider">|</span>
 
 
-<script src="/js/script.js"></script>
-<script src="/js/bootstrap.js"></script>
-<script src="/js/main.js"></script>
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
 
 
 
@@ -563,20 +791,162 @@
 
 
 
-  <div style="display: none;">
-    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-  </div>
+        
+      </div>
+    </footer>
 
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
 
-
-
-
-
-
+    
 
   </div>
 
-  <a id="rocket" href="#top" class=""></a>
-  <script type="text/javascript" src="/js/totop.js" async=""></script>
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
