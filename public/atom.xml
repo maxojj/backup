@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-10T03:09:04.199Z</updated>
+  <updated>2018-01-11T09:37:08.168Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/01/10/%E6%96%B0%E5%B9%B4%E6%96%B0%E9%9B%B6%E5%94%AE%EF%BC%8C%E4%BE%9D%E7%84%B6%E6%8E%8F%E9%92%B1%E4%B9%B0%E4%BA%AB%E5%8F%97/"/>
     <id>http://yoursite.com/2018/01/10/新年新零售，依然掏钱买享受/</id>
     <published>2018-01-10T02:41:10.000Z</published>
-    <updated>2018-01-10T03:09:04.199Z</updated>
+    <updated>2018-01-11T09:37:08.168Z</updated>
     
     <summary type="html">
     
@@ -29,14 +29,16 @@
       
         
         
-          &lt;h1 id=&quot;金闪闪の新零售（现状&quot;&gt;&lt;a href=&quot;#金闪闪の新零售（现状&quot; class=&quot;headerlink&quot; title=&quot;金闪闪の新零售（现状&quot;&gt;&lt;/a&gt;金闪闪の新零售（现状&lt;/h1&gt;&lt;h4 id=&quot;1-怎样算新零售&quot;&gt;&lt;a href=&quot;#1-怎样算新零售&quot;
+          &lt;h1 id=&quot;金闪闪の新零售（现状&quot;&gt;&lt;a href=&quot;#金闪闪の新零售（现状&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
-      <category term="-行业观察 -产品相关" scheme="http://yoursite.com/tags/%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F-%E4%BA%A7%E5%93%81%E7%9B%B8%E5%85%B3/"/>
+      <category term="行业观察" scheme="http://yoursite.com/tags/%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F/"/>
+    
+      <category term="产品相关" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   

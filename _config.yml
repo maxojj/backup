@@ -5,7 +5,7 @@
 # Site
 title: 海布里钟声
 subtitle: 欢迎
-description: Ah, but I was so much older then, I'm younger than that now.
+description: stay hungry.
 author: 路小飞
 language: zh-cn
 timezone:
@@ -80,8 +80,8 @@ deploy:
   type: git
   repository: git@github.com:maxojj/maxojj.github.io.git
   branch: master
-
-# Generate archive page
+  
+  # Generate archive page
 archive_generator:
   per_page: 0
 
