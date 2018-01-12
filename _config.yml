@@ -65,7 +65,7 @@ sidebar-avatar: http://ww1.sinaimg.cn/large/8bd399d6gy1fndtljt7g3j20ho0j5433.jpg
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 10              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 # friends
 friends:  # 友链
