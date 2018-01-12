@@ -1,87 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>海布里钟声</title>
+  <icon>https://www.gravatar.com/avatar/260b2401e5ce6eb61bd8dfdbc8bf6af4</icon>
   
-  <subtitle>欢迎</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://maxojj.github.io/"/>
   <updated>2018-01-11T09:37:08.168Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://maxojj.github.io/</id>
   
   <author>
     <name>路小飞</name>
-    
+    <email>maxojj@gmail.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>新年新零售，依然掏钱买享受</title>
-    <link href="http://yoursite.com/2018/01/10/%E6%96%B0%E5%B9%B4%E6%96%B0%E9%9B%B6%E5%94%AE%EF%BC%8C%E4%BE%9D%E7%84%B6%E6%8E%8F%E9%92%B1%E4%B9%B0%E4%BA%AB%E5%8F%97/"/>
-    <id>http://yoursite.com/2018/01/10/新年新零售，依然掏钱买享受/</id>
+    <link href="http://maxojj.github.io/2018/01/10/%E6%96%B0%E5%B9%B4%E6%96%B0%E9%9B%B6%E5%94%AE%EF%BC%8C%E4%BE%9D%E7%84%B6%E6%8E%8F%E9%92%B1%E4%B9%B0%E4%BA%AB%E5%8F%97/"/>
+    <id>http://maxojj.github.io/2018/01/10/新年新零售，依然掏钱买享受/</id>
     <published>2018-01-10T02:41:10.000Z</published>
     <updated>2018-01-11T09:37:08.168Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="金闪闪の新零售（现状"><a href="#金闪闪の新零售（现状" class="headerlink" title="金闪闪の新零售（现状"></a>金闪闪の新零售（现状</h1><p>2017年被业内人士称为“无人零售元年”，以无人货架以及无人零售店为主的无人零售业态逐渐落地。各个传统零售商纷纷布局新零售店铺创新项目：</p><ul><li>7-11推出7-11signature；沃尔玛设立自助杂货售卖亭；</li><li>元旦前夕，京东生鲜超市 7 Fresh 第一家线下店正式开业；</li><li>居然之家开设无人便利店EAT BOX；天虹也正式推出无人便利店Well Go；</li><li>与此同时，淘咖啡、盒马鲜生、缤果盒子、Take Go等非传统零售背景的无人店也频繁出现在公众眼前；</li></ul><p>阿里在“新零售”领域在17年也已抢先完成初步战略布局。截至目前，阿里巴巴在“新零售”领域的布局包括两大板块：</p><ul><li>线上网络零售板块：以淘宝天猫、淘宝全球购、天猫国际、一淘网、零售通、易果生鲜、闲鱼等组成的线上产品矩阵；</li><li>线上线下融合的新零售板块：括银泰商业、苏宁云商、联华超市、三江购物、盒马鲜生等等线下以及新型零售服务；</li></ul><p>面对2017年的资本大力扶持和培养，加上现有运营经验的积累，和新型技术、模式不断的尝试调整，新型零售在新年能到达怎样的体量，是件值得期待和观察的有趣课题。</p><h4 id="1-怎样算新零售"><a href="#1-怎样算新零售" class="headerlink" title="1.怎样算新零售"></a>1.怎样算新零售</h4><p>线上+线下<br>so，什么样算作“新零售”？<br>先看下“零售”的定义：</p><blockquote><p>零售是指，<br>向最终消费者<strong>个人或社会集团</strong>出售<strong>生活消费品及相关服务</strong>，以供其最终消费之用的<strong>全部活动</strong>。</p></blockquote><p>零售包含了整个服务过程，消费者并不仅仅消费商品，还享受商品的附属服务（这点日本零售商似乎吃的很透）。<strong>而新型零售，就是由于移动互联网技术的普及，让零售的整个过程出现了更多的可能。</strong></p><p>举个栗子，在传统商业模式下，由于空间限制，人们需要消费商品或者服务，会选择去到商场、闹市等店铺集中的地段进行选择，而商家看来，即使租金高的吓人，也会选择在黄金地带开店。道理很简单——开在郊区就算房租极低，没有人流没有流水没有利润，迟早关门。</p><p>那么进入PC时代呢？电子商城的加入改变了商品展示的渠道，即使卖家待在老家靠山屯，仍可以把口红买给陆家嘴的marry，而且在成本极低的情况下保证了可观的利润，这样的模式导致了商家在选址或者说商品展示的方式上有所改变或者权衡。另一方面，消费者可以坐在滴水湖的家中，淘宝买到朱家角的桂花糕，整个过程之快，怕是线下消费怎么也比不上的。<br>商家很快发现了新机会，由于网购的特点，推出电商“定制版”商品：更简单的包装，更大的量，更低的成本，通过价格战来引流和竞争。但是成本的压缩会导致商品质量、售后和服务等一些体验问题，在电商后期也确实暴露出来了。</p><p>受伤的消费者依然要购物，那么移动互联时代给了他们全新的选择：光顾线下店，同时通过手机把实体店和网店商品进行比较，再消费。考虑到近年餐饮娱乐消费的上升，势必会增加商场客流量，如何将流量转化为销量，其实这就引出了新零售的其中优势，这里先不表。</p><p>以上三个阶段，也是零售中三个主要元素：人、货、场之间关系变化的过程。场由商城变成了网站，又变成了APP，而货的形态、品质和消费者的心态、习惯也都不停的在变化。</p><h4 id="2-新零售和“旧”便利"><a href="#2-新零售和“旧”便利" class="headerlink" title="2.新零售和“旧”便利"></a>2.新零售和“旧”便利</h4><p>新零售与旧零售的区别<br>由线上蔓延到线下的新零售，无时无刻不强调数据的重要性，是因为数据曾经是他们唯一的资源。线上商业体没法对店铺进行选址，但却可以清楚的看到自己的每一位用户从哪里来，了解到他们的性别、地域、喜好等等。掌握了用户，就掌握了商业的无尽可能。对于“人”的充分了解，几乎撑起了互联网商业模式的半边天。而对于线下商业体而言，数据更多代表着流水、库存量、利润等财会方面的数字。<br>新零售与旧零售基因中的最大区别，就在于对“人”的考量上。在旧零售中，人只代表着客单价和客流量，可在新零售中，“人”代表着用户，代表着巨大的想象空间。<br>很多人把新零售解读为对“人、货、场”的重构，如果“货”和“场”意味着更精准的选品选址、更合理的库存设置，那这一切很显然是基于对“人”的充分了解之上的。通过来自人的数据去校验货的数据和场的数据，本质上新零售的“人货场”是一种数据之间的互相印证。<br>线下零售的优势<br>但通过线上途径去了解用户，只能解决一半的问题。用户在线上的行为几乎毫无成本，搜索、浏览和点击或许只是消磨时间的方式，我们可能会在电商平台上美滋滋的看一天名车名表，到了线下却不曾踏入过4S店一步。更别提泛滥的流量劫持和水军了。<br>相比线上数据的真实程度和噪声比例，线下数据往往要更真实和更有价值。两者结合起来，才能从真正意义上帮每一个商业体完成“人货场”的数据运转。</p><h4 id="3-赚了吆喝赚美金（融资情况）"><a href="#3-赚了吆喝赚美金（融资情况）" class="headerlink" title="3.赚了吆喝赚美金（融资情况）"></a>3.赚了吆喝赚美金（融资情况）</h4><h1 id="消费升级搞事情（原因"><a href="#消费升级搞事情（原因" class="headerlink" title="消费升级搞事情（原因"></a>消费升级搞事情（原因</h1><h4 id="1-解放后的三次消费升级"><a href="#1-解放后的三次消费升级" class="headerlink" title="1.解放后的三次消费升级"></a>1.解放后的三次消费升级</h4><blockquote><pre><code>中国从解放后到现在，一共经历过三次消费浪潮</code></pre><ul><li><p>第一次是改革开放之初，城镇人口在吃饱方面已经基本没有太大的问题了，部分人（尤其是城市人口）开始买自行车，收音机、手表、缝纫机，穿更多颜色和更时髦的衣服，人们有了少量的文娱活动。</p></li><li><p>第二次消费升级，则是从20世纪80年代末，到90年代末，这个时候的人们有更多的闲钱来购买更好的产品，代表性产品就是“新三件（冰箱、彩电、洗衣机）。</p></li><li><p>第三次消费升级，则是从2000年之后一直到现在，大部分人的生理需求基本得到满足，城镇人口中，对于通讯、娱乐、旅游、教育和医疗保健的支出在迅速上升，房地产、汽车等大件产品需求量突飞猛进。</p></li></ul></blockquote><h4 id="2-促成升级的基础"><a href="#2-促成升级的基础" class="headerlink" title="2.促成升级的基础"></a>2.促成升级的基础</h4><blockquote><ul><li>伴随经济增长，居民可支配收入增加</li><li>消费信心增加，敢于提前消费，借贷消费</li><li>90后为主体的新兴消费观念</li></ul></blockquote><h4 id="3-群体现状"><a href="#3-群体现状" class="headerlink" title="3.群体现状"></a>3.群体现状</h4><blockquote><ul><li>伴随经济增长，居民可支配收入增加</li><li>消费信心增加，敢于提前消费，借贷消费</li><li>90后为主体的新兴消费观念<h4 id="4-目前机会"><a href="#4-目前机会" class="headerlink" title="4.目前机会"></a>4.目前机会</h4></li></ul><ul><li>人会越来越懒——智能家居、电器等等</li><li>注重享受——个性化自助游，按摩，汽车等等</li><li>注重娱乐——AR/VR、更多影音娱乐</li><li>注重健康——健身、体检、养老</li></ul></blockquote><h1 id="零售花样如何新？（表象"><a href="#零售花样如何新？（表象" class="headerlink" title="零售花样如何新？（表象"></a>零售花样如何新？（表象</h1><h1 id="金主爸爸怎么看（因素"><a href="#金主爸爸怎么看（因素" class="headerlink" title="金主爸爸怎么看（因素"></a>金主爸爸怎么看（因素</h1><h4 id="1-零售业演化"><a href="#1-零售业演化" class="headerlink" title="1.零售业演化"></a>1.零售业演化</h4><blockquote><p>第一阶段——原始零售：连锁商超巨头控制<br>第二阶段——电商：通过互联网快速发展，并积累数据，个性化推荐<br>第三阶段——新零售：电商巨头为何再次关注线下门店？</p></blockquote><h4 id="2-线上下大佬共同的难题"><a href="#2-线上下大佬共同的难题" class="headerlink" title="2.线上下大佬共同的难题"></a>2.线上下大佬共同的难题</h4><p>成本增加<br>服务标准提高<br>数据泛滥、提炼精准度</p><h4 id="3-走向共和，谁都无法取代"><a href="#3-走向共和，谁都无法取代" class="headerlink" title="3.走向共和，谁都无法取代"></a>3.走向共和，谁都无法取代</h4><h4 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h4><h1 id="刷脸扫码黑科技，还不是要买单（前景、未来、技术问题"><a href="#刷脸扫码黑科技，还不是要买单（前景、未来、技术问题" class="headerlink" title="刷脸扫码黑科技，还不是要买单（前景、未来、技术问题"></a>刷脸扫码黑科技，还不是要买单（前景、未来、技术问题</h1>]]></content>
     
     <summary type="html">
     
       
       
-        
-        
-          &lt;h1 id=&quot;金闪闪の新零售（现状&quot;&gt;&lt;a href=&quot;#金闪闪の新零售（现状&quot; class=&quot;headerlink&quot;
-        
+        &lt;h1 id=&quot;金闪闪の新零售（现状&quot;&gt;&lt;a href=&quot;#金闪闪の新零售（现状&quot; class=&quot;headerlink&quot; title=&quot;金闪闪の新零售（现状&quot;&gt;&lt;/a&gt;金闪闪の新零售（现状&lt;/h1&gt;&lt;p&gt;2017年被业内人士称为“无人零售元年”，以无人货架以及无人零售店为主的无人
       
     
     </summary>
     
     
-      <category term="行业观察" scheme="http://yoursite.com/tags/%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F/"/>
+      <category term="行业观察" scheme="http://maxojj.github.io/tags/%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F/"/>
     
-      <category term="产品相关" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E7%9B%B8%E5%85%B3/"/>
+      <category term="产品相关" scheme="http://maxojj.github.io/tags/%E4%BA%A7%E5%93%81%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
   <entry>
     <title>写在前面</title>
-    <link href="http://yoursite.com/2018/01/09/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
-    <id>http://yoursite.com/2018/01/09/写在前面/</id>
+    <link href="http://maxojj.github.io/2018/01/09/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
+    <id>http://maxojj.github.io/2018/01/09/写在前面/</id>
     <published>2018-01-09T08:06:02.000Z</published>
     <updated>2018-01-09T09:14:31.480Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2018/01/09/写在前面/pexels-photo-190294.jpeg" alt="一人独钓一江秋"></p><h5 id="写在喘气前"><a href="#写在喘气前" class="headerlink" title="写在喘气前"></a>写在喘气前</h5><p>经过数天数夜的折腾和尝试，在这个特殊的日子，终于搭建起属于自己的小破船，浪荡在互联天地间。<strong>一蓑一笠一扁舟</strong>，小学很欣赏这句诗，当时并不了解，现在品味倒是有几分悲壮的滋味在其中，对<strong>一人独钓一江秋</strong>的情境倒也是非常向往。</p><h5 id="这个特殊的日子"><a href="#这个特殊的日子" class="headerlink" title="这个特殊的日子"></a>这个特殊的日子</h5><blockquote><p><strong>哈尔·葛宾·科拉纳</strong> （1922年1月9日－2011年11月9日），首先证明<a href="https://zh.wikipedia.org/wiki/%E6%A0%B8%E8%8B%B7%E9%85%B8" target="_blank" rel="noopener">核苷酸</a>在<a href="https://zh.wikipedia.org/wiki/%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%90%88%E6%88%90" target="_blank" rel="noopener">蛋白质合成</a>中的作用，96岁生日快乐！</p></blockquote><h5 id="写在喘气后"><a href="#写在喘气后" class="headerlink" title="写在喘气后"></a>写在喘气后</h5><p>每次旅行或多或少会有这样的感觉：<strong>开启旅途的初衷，总会淹没在行程的缤纷和嘈杂声中，以致于复盘行程总是会有些许遗憾。</strong>又是哪天贪了嘴，烦了懒，或是天气不佳，漏掉了博物馆，小巷子或是沙滩。并不是怪罪自己，但遗憾总是有的。错不在美食或是沙发，问题在于少了自我反省和总结的习惯。</p><p>所以今天，在这艘小渔船上投下一个浮标，时时提醒，刻刻注意，坐赏一江秋。</p><h5 id="最后共勉"><a href="#最后共勉" class="headerlink" title="最后共勉"></a>最后共勉</h5><blockquote><p>题秋江独钓图</p><p>王士桢</p><p>一蓑一笠一扁舟，<br>一丈丝纶一寸钩；<br>一曲高歌一樽酒，<br>一人独钓一江秋。</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/2018/01/09/写在前面/pexels-photo-190294.jpeg&quot; alt=&quot;一人独钓一江秋&quot;&gt;&lt;/p&gt;
-&lt;h5 id=&quot;写在喘气前&quot;&gt;&lt;a href=&quot;#写在喘气前&quot; class=&quot;headerlink&quot;
-        
+        &lt;p&gt;&lt;img src=&quot;/2018/01/09/写在前面/pexels-photo-190294.jpeg&quot; alt=&quot;一人独钓一江秋&quot;&gt;&lt;/p&gt;
+&lt;h5 id=&quot;写在喘气前&quot;&gt;&lt;a href=&quot;#写在喘气前&quot; class=&quot;headerlink&quot; title=&quot;写在喘气前&quot;&gt;
       
     
     </summary>
     
     
-      <category term="杂谈" scheme="http://yoursite.com/tags/%E6%9D%82%E8%B0%88/"/>
+      <category term="杂谈" scheme="http://maxojj.github.io/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/01/09/hello-world/"/>
-    <id>http://yoursite.com/2018/01/09/hello-world/</id>
+    <link href="http://maxojj.github.io/2018/01/09/hello-world/"/>
+    <id>http://maxojj.github.io/2018/01/09/hello-world/</id>
     <published>2018-01-09T05:08:10.741Z</published>
     <updated>2018-01-09T05:08:10.741Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
       
     
     </summary>
