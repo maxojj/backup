@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 海布里钟声 # your blog title name
+title: 路小飞 # your blog title name
 subtitle:  Have a good time.
-author: 路小飞 # 作者
+author: 海布里钟声 # 作者
 language: zh-CN
 timezone: 
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: 海布里钟声's Blog
-header-img:
+SEOTitle: 路小飞's Blog
+header-img: 
 email: maxojj@gmail.com
 description: "路小飞在 Github 上的个人博客"
 keyword: # seo key words
@@ -97,7 +97,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: categorized
 category_map:
 tag_map:
 
