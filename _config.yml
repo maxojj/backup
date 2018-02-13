@@ -15,7 +15,7 @@ SEOTitle: 路小飞's Blog
 header-img: 
 email: maxojj@gmail.com
 description: "路小飞在 Github 上的个人博客"
-keyword: # seo key words
+keyword: 路小飞 # seo key words
 
 favicon: # your favicon png
 # custom end
@@ -157,3 +157,14 @@ swiftype_key:
 archive:
     title: archives
     description: 可以根据归档日期检索所有文件
+    
+# Extensions
+## Plugins: http://hexo.io/plugins/
+#RSS订阅
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
