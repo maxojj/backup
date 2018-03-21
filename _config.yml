@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 路小飞 # your blog title name
+title: 海布里钟声 # your blog title name
 subtitle:  Have a good time.
-author: 海布里钟声 # 作者
+author: 路小飞 # 作者
 language: zh-CN
 timezone: 
 
@@ -46,7 +46,7 @@ disqus_username: maxojj
 # Duoshuo settings
 duoshuo_username:  # 你的多说帐号
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 # Use livere
 use_livere:
@@ -59,7 +59,7 @@ ga_track_id: UA-112264902-1            # Format: UA-xxxxxx-xx
 ga_domain: maxojj.github.io
 
 # Sidebar settings
-sidebar-about-description: Ah, but I was so much older then, I'm younger than that now. # 个人描述
+sidebar-about-description: To live is to suffer. # 个人描述
 sidebar-avatar: http://ww1.sinaimg.cn/large/8bd399d6gy1fndtljt7g3j20ho0j5433.jpg    # use absolute URL
 
 
@@ -110,7 +110,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 6
+per_page: 12
 pagination_dir: page
 
 # Extensions
@@ -126,13 +126,15 @@ markdown:
     - markdown-it-emoji
 
 ## Themes: https://hexo.io/themes/
-theme: Anisina
+theme: fexo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:maxojj/maxojj.github.io.git
+  repo: 
+    github: git@github.com:maxojj/maxojj.github.io.git
+    coding: https://git.coding.net/maxojj/maxojj.git
   branch: master
 
 
