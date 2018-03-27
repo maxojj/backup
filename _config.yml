@@ -4,25 +4,24 @@
 
 # Site
 title: 海布里钟声 # your blog title name
-subtitle:  Have a good time.
+subtitle:  To live is to suffer.
 author: 路小飞 # 作者
 language: zh-CN
 timezone: 
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: 路小飞's Blog
 header-img: 
 email: maxojj@gmail.com
 description: "路小飞在 Github 上的个人博客"
-keyword: 路小飞 # seo key words
+
 
 favicon: # your favicon png
 # custom end
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://maxojj.github.io
+url: http://feimind.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -59,7 +58,7 @@ ga_track_id: UA-112264902-1            # Format: UA-xxxxxx-xx
 ga_domain: maxojj.github.io
 
 # Sidebar settings
-sidebar-about-description: To live is to suffer. # 个人描述
+sidebar-about-description: Ah, but I was so much older then, I'm younger than that now. # 个人描述
 sidebar-avatar: http://ww1.sinaimg.cn/large/8bd399d6gy1fndtljt7g3j20ho0j5433.jpg    # use absolute URL
 
 
@@ -170,3 +169,12 @@ feed:
 type: atom
 path: atom.xml
 limit: 20
+
+Plugins: 
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+# 自动生成sitemap
+sitemap: 
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
