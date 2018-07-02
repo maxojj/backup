@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-post">
+
+
+<head>
+
+  <meta charset="utf-8">
+  
+  <title>信号和噪声 | 海布里钟声</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="杂谈,社会,产品相关," />
+  
+
+  <meta name="description" content="简单的定义说到信号和噪声，还有一个延伸出的度量概念——信噪比。信号、噪声、信噪比通常用于描述电子信号，也可以应用在各种形式的信号。信噪比很好理解，来自于信号和噪声的比值，信号相对噪声越大，信噪比越高，信号的还原程度也就越高，信号传输的质量也就越高。 放在通信或者电子行业，追求最高的信噪比数值可以说是一件天然正确的事情。一大堆手机、高品质音箱堆砌出来的硬件、软件算法，最终的呈现结果就是如何高保真的还">
+<meta name="keywords" content="杂谈,社会,产品相关">
+<meta property="og:type" content="article">
+<meta property="og:title" content="信号和噪声">
+<meta property="og:url" content="http://feimind.xyz/2018/05/31/信号和噪声/index.html">
+<meta property="og:site_name" content="海布里钟声">
+<meta property="og:description" content="简单的定义说到信号和噪声，还有一个延伸出的度量概念——信噪比。信号、噪声、信噪比通常用于描述电子信号，也可以应用在各种形式的信号。信噪比很好理解，来自于信号和噪声的比值，信号相对噪声越大，信噪比越高，信号的还原程度也就越高，信号传输的质量也就越高。 放在通信或者电子行业，追求最高的信噪比数值可以说是一件天然正确的事情。一大堆手机、高品质音箱堆砌出来的硬件、软件算法，最终的呈现结果就是如何高保真的还">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-05-31T03:02:41.454Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="信号和噪声">
+<meta name="twitter:description" content="简单的定义说到信号和噪声，还有一个延伸出的度量概念——信噪比。信号、噪声、信噪比通常用于描述电子信号，也可以应用在各种形式的信号。信噪比很好理解，来自于信号和噪声的比值，信号相对噪声越大，信噪比越高，信号的还原程度也就越高，信号传输的质量也就越高。 放在通信或者电子行业，追求最高的信噪比数值可以说是一件天然正确的事情。一大堆手机、高品质音箱堆砌出来的硬件、软件算法，最终的呈现结果就是如何高保真的还">
+
+  
+    <link rel="alternate" href="/atom.xml" title="海布里钟声" type="application/atom+xml">
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=c114cbe6" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112264902-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+  
+
+  
+
+
+  
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">别点~</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">别点~</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/archives/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/tag/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/link/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/about/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            关于我
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/atom.xml"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/search/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#简单的定义"><span class="toc-text">简单的定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#哪些是信号、噪音"><span class="toc-text">哪些是信号、噪音</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#选择合适的信噪比"><span class="toc-text">选择合适的信噪比</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#自定义信噪比"><span class="toc-text">自定义信噪比</span></a></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-信号和噪声" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">信号和噪声</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2018.05.31</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>路小飞</span>
+        </span>
+      
+
+      
+
+
+      
+        <span>
+          <i class="icon-comment"></i>
+          <a href="http://http://feimind.xyz/2018/05/31/信号和噪声/#disqus_thread"></a>
+        </span>
+      
+
+      
+      <i class="fa fa-eye"></i> 
+        <span id="busuanzi_container_page_pv">
+           &nbsp热度 <span id="busuanzi_value_page_pv">
+           <i class="fa fa-spinner fa-spin"></i></span>℃
+        </span>
+      
+      
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <h2 id="简单的定义"><a href="#简单的定义" class="headerlink" title="简单的定义"></a>简单的定义</h2><p>说到信号和噪声，还有一个延伸出的度量概念——信噪比。信号、噪声、信噪比通常用于描述电子信号，也可以应用在各种形式的信号。信噪比很好理解，来自于信号和噪声的比值，信号相对噪声越大，信噪比越高，信号的还原程度也就越高，信号传输的质量也就越高。</p>
+<p>放在通信或者电子行业，追求最高的信噪比数值可以说是一件天然正确的事情。一大堆手机、高品质音箱堆砌出来的硬件、软件算法，最终的呈现结果就是如何高保真的还原音乐本身并降低传输噪音。</p>
+<p>那我们说，如果把信噪比的概念抽象出来，是否可以在其他领域展开这样的度量概念，同时，高信噪比是否依旧适用于所谓的其他领域呢？</p>
+<h2 id="哪些是信号、噪音"><a href="#哪些是信号、噪音" class="headerlink" title="哪些是信号、噪音"></a>哪些是信号、噪音</h2><p>关于信噪比的第一个问题就是，如何定义众多信号，哪些是信号、噪音？</p>
+<p>在通信领域，这甚至不能算一个问题。打电话，通话人的声音是信号，环境音等杂音自然是噪音了，提高信噪比理所当然。那放在其他方面，如何去确定信号和噪声呢？比如拍照摄影，我们要追求更高的画质，更少的噪点，但现在我们会发现一大批包含胶片、菲林滤镜的特效和APP，甚至老式胶片机又再次受到追捧（连我也忍不住入了一台美能达）。</p>
+<p>注意，你会觉得追求高信噪比和低信噪比并不矛盾，我甚至可以同时享受这两种信噪比带给我的愉悦。没错，这两种选择都没有问题，但有意思的是，我们发现信号和噪声并没有清晰界限，甚至在互相转变，好的未必一直好，坏的其实也可爱。</p>
+<p>类似的例子还有很多。比如最近流行的黑胶风，更有意思。在追求高信噪比的音频领域，有一部分人开始把低信噪比作为消费的一个方面。人们已经不满足于高保真画质，而是倾向于可以听到现场、环境、表演者周围噪声的聆听体验。那不禁要问，噪音真的只是噪音吗，真的有那么可怕或者应该被消除吗？</p>
+<h2 id="选择合适的信噪比"><a href="#选择合适的信噪比" class="headerlink" title="选择合适的信噪比"></a>选择合适的信噪比</h2><p>这几乎是一个伪命题。没有哪家音频提供商拥有供你选择的信噪比，这也是为什么我们之前从来没有去关注这个问题的一个原因，绝大部分信号、噪声的定义在软件端已经被提前设定并且被调整。我们只能接受越来越纯净的信号，这种感觉是很棒，以至于我翻出中学的卡带几乎不敢相信之前可以忍受如此音质的磁带。</p>
+<p>或者这样问你一个问题，如果手上拥有一个调整信噪比的手柄，你会怎么做？</p>
+<p>收听专辑时，你会想听到录音室里乐器的混响，乐手的气息颤抖，甚至录音室隔壁的狗叫声么？（五月天真的干过）</p>
+<p>当你跟他通话，你会想听到他周遭的环境么，是在咖啡馆，还是地铁，或者是图书馆，是晴天还是雨天，微风或是暴雨，什么时候这些细心和体贴消失殆尽呢？从听不到开始。</p>
+<p>当你在餐馆排队，是不是越来越急于拿到食物，而不是享受食物制作过程或者餐馆本身带给你的感觉呢？想想《舌尖》最打动你的地方，再想想KFC、麦当劳在高信噪比上做出的杰出贡献。</p>
+<p>当你在公交或者地铁，面对邻座，是不是带起耳机懒于交流沟通，将其视为噪声。再远些，火车、飞机呢？</p>
+<p>因为没办法选择信噪比，反过来，信噪比对我们设定了标杆：噪声都是不值得去理会的，信号越强越好。已经成为了潜意识里的思想钢印。外卖要最快，网购要最便宜，恋爱要最漂亮，生活越来越直接，也是极高信噪比的一个体现。</p>
+<h2 id="自定义信噪比"><a href="#自定义信噪比" class="headerlink" title="自定义信噪比"></a>自定义信噪比</h2><p>别做梦了，这样的手柄并不存在。</p>
+<p>回过头看，我内心似乎丧失了很多称之为“小心思”的东西。直奔主题，来去如风，活的潇洒。</p>
+<p>渐渐的不再去关心其他人，因为可以朋友圈点赞。</p>
+<p>渐渐的不再去研究菜谱，做的难吃叫个外卖。</p>
+<p>渐渐的不再出门，健身房可以把你收拾的很好。</p>
+<p>渐渐的不再原创，工业品又不是不能用。</p>
+<p>今天上海飘着细雨，地铁口出来大概五分钟路程，大家不约而同的撑起了伞，我忍住了。</p>
+<p>细雨拂面，闻着青草香，走在大学路的感觉很棒，那又有多少人仅仅是在担心被雨淋湿呢？</p>
+<p>这句词放在这里真的再适合不过了：some people feels the rain,others just get wet.</p>
+<p>这个瞬间，我尝试握住这样一个手柄。</p>
+<p>LOVE@PEACE</p>
+
+    
+  </div>
+
+  
+      <div class="git"></div>
+  
+
+</article>
+
+
+   
+  <div class="text-center donation">
+    <div class="inner-donation">
+      <span class="btn-donation">点我惊喜</span>
+      <div class="donation-body">
+        <div class="tip text-center">卖身买域名</div>
+        <ul>
+        
+          <li class="item">
+            <span></span>
+            <img src="https://i.loli.net/2018/03/21/5ab1e9a074c00.png" alt="">
+          </li>
+        
+          <li class="item">
+            <span></span>
+            <img src="https://i.loli.net/2018/03/21/5ab1e9a0711f8.png" alt="">
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+   
+  <div class="box-prev-next clearfix">
+    <a class="show pull-left" href="/2018/05/20/《布达佩斯往事》的一些碎片/">
+        <i class="icon icon-angle-left"></i>
+    </a>
+    <a class="show pull-right" href="/2018/06/11/blog,podcast,vlog/">
+        <i class="icon icon-angle-right"></i>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/archives/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/tag/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/link/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/about/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              关于我
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/atom.xml"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/search/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+  <section class="disqus-comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+
+  <script>
+    var disqus_shortname = 'maxojj';
+    
+    var disqus_url = 'http://feimind.xyz/2018/05/31/信号和噪声/';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script id="dsq-count-scr" src="//maxojj.disqus.com/count.js" async></script>
+
+
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
